@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RemindPasswordComponent } from './remind-password.component';
+import { CrudEditComponent } from './crud-edit.component';
 
-describe('RemindPasswordComponent', () => {
-  let component: RemindPasswordComponent;
-  let fixture: ComponentFixture<RemindPasswordComponent>;
+describe('CrudEditComponent', () => {
+  let component: CrudEditComponent;
+  let fixture: ComponentFixture<CrudEditComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [RemindPasswordComponent]
+      imports: [CrudEditComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(RemindPasswordComponent);
+    fixture = TestBed.createComponent(CrudEditComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
